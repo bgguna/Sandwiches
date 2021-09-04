@@ -13,6 +13,12 @@
 		03386E3A26E41332006D55C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03386E2526E41331006D55C6 /* ContentView.swift */; };
 		03386E3B26E41332006D55C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03386E2626E41332006D55C6 /* Assets.xcassets */; };
 		03386E3C26E41332006D55C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03386E2626E41332006D55C6 /* Assets.xcassets */; };
+		03386E4626E41827006D55C6 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03386E4526E41827006D55C6 /* Sandwich.swift */; };
+		03386E4726E41827006D55C6 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03386E4526E41827006D55C6 /* Sandwich.swift */; };
+		03386E4926E41D36006D55C6 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03386E4826E41D36006D55C6 /* SandwichDetail.swift */; };
+		03386E4A26E41D36006D55C6 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03386E4826E41D36006D55C6 /* SandwichDetail.swift */; };
+		03386E4C26E42154006D55C6 /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03386E4B26E42154006D55C6 /* SandwichStore.swift */; };
+		03386E4D26E42154006D55C6 /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03386E4B26E42154006D55C6 /* SandwichStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,9 @@
 		03386E3326E41332006D55C6 /* Sandwiches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandwiches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03386E3526E41332006D55C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03386E3626E41332006D55C6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		03386E4526E41827006D55C6 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		03386E4826E41D36006D55C6 /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
+		03386E4B26E42154006D55C6 /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +68,10 @@
 			children = (
 				03386E2426E41331006D55C6 /* SandwichesApp.swift */,
 				03386E2526E41331006D55C6 /* ContentView.swift */,
+				03386E4826E41D36006D55C6 /* SandwichDetail.swift */,
+				03386E4B26E42154006D55C6 /* SandwichStore.swift */,
 				03386E2626E41332006D55C6 /* Assets.xcassets */,
+				03386E4526E41827006D55C6 /* Sandwich.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,8 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03386E4C26E42154006D55C6 /* SandwichStore.swift in Sources */,
 				03386E3926E41332006D55C6 /* ContentView.swift in Sources */,
 				03386E3726E41332006D55C6 /* SandwichesApp.swift in Sources */,
+				03386E4626E41827006D55C6 /* Sandwich.swift in Sources */,
+				03386E4926E41D36006D55C6 /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03386E4D26E42154006D55C6 /* SandwichStore.swift in Sources */,
 				03386E3A26E41332006D55C6 /* ContentView.swift in Sources */,
 				03386E3826E41332006D55C6 /* SandwichesApp.swift in Sources */,
+				03386E4726E41827006D55C6 /* Sandwich.swift in Sources */,
+				03386E4A26E41D36006D55C6 /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
